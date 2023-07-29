@@ -1,1 +1,1 @@
-export const baseURL = "https://crud-backend-sigma.vercel.app";
+export const baseURL = "https://crud-backend-sigma.vercel.app/api";
