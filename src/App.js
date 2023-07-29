@@ -42,7 +42,7 @@ const App = () => {
   return (
     <>
       <main>
-        <h1 className="title">CRUD Operations</h1>
+        <h1 className="title">TODO List</h1>
 
         <div className="input_holder">
           <input
