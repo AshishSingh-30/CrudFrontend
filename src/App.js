@@ -11,8 +11,8 @@ const App = () => {
 
   useEffect(() => {
     axios.get(`${baseURL}/get`).then((res) => {
-      console.log(res.data);
       setTasks(res.data);
+      console.log(res.data);
     });
   }, [updateUI]);
 
